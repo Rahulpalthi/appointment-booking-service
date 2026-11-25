@@ -1,0 +1,13 @@
+{
+  "name": "appointment-booking-service",
+  "version": "1.0.0",
+  "description": "Bounded conflict-safe appointment booking and cancellation service in UTC",
+  "main": "src/appointmentService.js",
+  "scripts": {
+    "start": "node src/demo.js",
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^30.5.0"
+  }
+}
